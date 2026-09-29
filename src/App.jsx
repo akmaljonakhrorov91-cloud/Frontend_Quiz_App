@@ -15,7 +15,7 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         { index: true, element: <Home /> },
-        { path: "/quiz", element: <Quiz /> },
+        { path: "/quiz/:title", element: <Quiz /> },
       ],
     },
   ]);
