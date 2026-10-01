@@ -472,13 +472,31 @@ body.dark-mode .test-label:has(> input:checked) .test-letter {
   }
 }
 
-.test-btn {
+/* .test-btn {
   position: absolute;
   left: 0;
   width: 100%;
   margin-top: 32px;
+} */
+.test-btn {
+  display: block;
+  width: 100%;
+  max-width: 1200px; /* konteyner kengligiga moslang */
+  margin: 32px auto 0; /* o'rtaga joylashtiradi */
+  padding: 16px 24px;
+  background: #9333ea; /* siz tanlagan binafsha rang */
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
+.test-btn:hover {
+  background: #7e22ce;
+}
 .test-completed-body {
   background-color: var(--prue-white-color);
   padding: 48px;
