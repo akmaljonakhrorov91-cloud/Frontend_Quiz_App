@@ -6,7 +6,7 @@ function MenuLinks() {
     data: quizzes,
     isPending,
     error,
-  } = useFetch("http://localhost:3000/quizzes");
+  } = useFetch("https://6abdf36cc4d5ac5483017422.mockapi.io/quizzes");
   return (
     <div>
       {isPending && <p>Loading ...</p>}
@@ -23,6 +23,7 @@ function MenuLinks() {
                 <figure style={{ backgroundColor: item.color }}>
                   <img src={item.icon} alt={item.title} />
                 </figure>
+                <span>{item.title}</span>
               </Link>
             );
           })}
