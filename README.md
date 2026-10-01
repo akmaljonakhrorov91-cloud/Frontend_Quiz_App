@@ -1,7 +1,7 @@
 🧠 Quiz App
 An interactive multi-category quiz application built with React. Users can pick a topic (HTML, CSS, JavaScript, etc.), answer multiple-choice questions, track their progress in real time, and view their final score at the end.
 🚀 Demo 
-Add your live demo link here (e.g. Vercel / Netlify) once deployed.
+https://frontend-quiz-app-zeta.vercel.app/
 
 ✨ Features
 🗂️ Multiple quiz categories (HTML, CSS, JavaScript...) with dynamic routing
