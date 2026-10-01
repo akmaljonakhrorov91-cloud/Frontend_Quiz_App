@@ -1,7 +1,7 @@
 import React from "react";
 
 function Quiz() {
-  return <div>Quiz</div>;
+  return <div>quiz</div>;
 }
 
 export default Quiz;
